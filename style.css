@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fundo{
+    background-image: url(/imgs/hello-kitty-wallpaper-7.png);
+    height: 100vh;
+    color: white;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}
+
+.HK{
+    position: relative;
+    top: 110px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+}
+
+.calculadora{
+    position: absolute;
+    background-color: rgb(238, 130, 238,0.8);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+table tr td button {
+    background-color: #e9b5f5;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    font-family: 'Pacifico', cursive;
+    cursor: pointer;
+    border: none;
+    color: rgb(151, 80, 151);
+    margin:1px;
+}
+
+table tr td button:hover{
+    background-color: white;
+}
+
+#equals{
+    height: 106px;
+
+}
+
+#zero{
+    width: 106px;
+}
+
+#resultado {
+    background-color: white;
+    width: 207px;
+    height: 35px;
+    margin: 5px;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+    padding: 5px;
+
+}
